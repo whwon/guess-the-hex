@@ -1,0 +1,43 @@
+/* Fun colors: background-color: #282c34;, #61dafb */
+
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.BoxOfColor {
+  height: 200px;
+  width: 300px;
+}
+
+.Buttons {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  padding: 1rem 0;
+}
+
+button {
+  border-radius: 15px;
+  padding: 0.6rem 1rem;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  border: 1px solid #61dafb;
+}
+
+.Incorrect {
+  color: red;
+}
+
+.Correct {
+  color: green;
+}
