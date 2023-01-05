@@ -26,12 +26,13 @@
 button {
   border-radius: 15px;
   padding: 0.6rem 1rem;
-  border: 1px solid #ffffff;
+  border: 2px solid #d0c7c7;
   cursor: pointer;
+  background-color: transparent;
 }
 
 button:hover {
-  border: 1px solid #61dafb;
+  border: 2px solid #61dafb;
 }
 
 .Incorrect {
