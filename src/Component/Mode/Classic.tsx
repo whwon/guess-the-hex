@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
-import { generateHexes, generateARandNum } from "../helper";
+import "../../App.css";
+import { generateHexes, generateARandNum } from "../../helper";
 
 type DefaultStatus = {
   correct: boolean;
